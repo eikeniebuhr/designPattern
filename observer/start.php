@@ -8,7 +8,7 @@ require __DIR__ . '/../vendor/autoload.php';
 $factory = new Factory();
 
 $bernd = $factory->createHungryPerson('Bernd');
-$wilhelm = $factory->createHungryPerson('Wilhelm');
+$wilhelm = $factory->createHungryPerson('Thorben');
 
 $restaurantPostsNotifier = $factory->createRestaurantPostsNotifier();
 $restaurantPostsNotifier->addObserver($bernd);
